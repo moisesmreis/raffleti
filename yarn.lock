@@ -258,6 +258,11 @@
   "resolved" "https://registry.npmjs.org/@csstools/selector-specificity/-/selector-specificity-2.1.1.tgz"
   "version" "2.1.1"
 
+"@heroicons/vue@^2.0.16":
+  "integrity" "sha512-saVAExLlGu6epqmS543qeWd/UOJUxpTJyK9aXeFGqS3VIW8X7yyJQmUGT40A38gBEAxMOdTdH9jFSh8sjPFM7A=="
+  "resolved" "https://registry.npmjs.org/@heroicons/vue/-/vue-2.0.16.tgz"
+  "version" "2.0.16"
+
 "@ioredis/commands@^1.1.1":
   "version" "1.2.0"
 
@@ -4170,7 +4175,7 @@
   dependencies:
     "@vue/devtools-api" "^6.4.5"
 
-"vue@^3.0.0", "vue@^3.2.0", "vue@^3.2.25", "vue@^3.2.45", "vue@>=2.7 || >=3", "vue@3.2.45":
+"vue@^3.0.0", "vue@^3.2.0", "vue@^3.2.25", "vue@^3.2.45", "vue@>= 3", "vue@>=2.7 || >=3", "vue@3.2.45":
   "version" "3.2.45"
   dependencies:
     "@vue/compiler-dom" "3.2.45"

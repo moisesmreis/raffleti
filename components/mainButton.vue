@@ -1,15 +1,17 @@
 <template>
-    <a href="">
-        <button class="font-body flex flex-row gap-3 items-center justify-center content-center text-neutral-900 bg-white border border-neutral-200 focus:outline-none hover:bg-neutral-100 focus:ring-4 focus:ring-neutral-200 font-medium rounded-full text-sm px-5 py-2.5 dark:bg-neutral-800 dark:text-white dark:border-neutral-600 dark:hover:bg-neutral-700 dark:hover:border-neutral-600 dark:focus:ring-neutral-700">{{ content }}</button>
-    </a>
+  <button
+    class="max-w-fit font-body flex flex-row gap-3 items-center justify-center content-center text-neutral-900 bg-white border border-neutral-200 focus:outline-none hover:bg-neutral-100 focus:ring-4 focus:ring-neutral-200 font-medium rounded-full text-sm px-5 py-2.5 dark:bg-neutral-800 dark:text-white dark:border-neutral-600 dark:hover:bg-neutral-700 dark:hover:border-neutral-600 dark:focus:ring-neutral-700">
+    <slot></slot>
+    <span>{{ content }}</span>
+  </button>
 </template>
 
 <script lang="ts">
-  export default {
-    props: {
-      content: {
-        type: String,
-      }
+export default {
+  props: {
+    content: {
+      type: String,
     }
-  };
+  }
+};
 </script> 

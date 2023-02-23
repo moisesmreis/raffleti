@@ -4,16 +4,8 @@
             <LogoIcon />
         </div>
         <div class="flex flex-row justify-end items-center content-center py-6 gap-6">
-            <MainButton content="Documentação">
-                <DocumentTextIcon class="w-4 h-4" />
-            </MainButton>
-            <MainButton content="Dark">
-                <MoonIcon class="w-4 h-4" />
-            </MainButton>
+            <MainButton content="Documentação 📚" />
+            <MainButton content="Dark 🌙" />
         </div>
     </header>
 </template>
-
-<script setup>
-import { MoonIcon, DocumentTextIcon } from '@heroicons/vue/24/outline'
-</script>

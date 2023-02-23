@@ -43,6 +43,7 @@
             <Badges content="Cartões de crédito" />
         </MainCard>
     </section>
+    <Bottom />
 </template>
 
 <script lang="ts">

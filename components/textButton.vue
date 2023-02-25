@@ -1,7 +1,7 @@
 <template>
-  <button class="font-body flex flex-row gap-4 justify-start content-center items-center text-sm underline">
+  <button class="font-body font-medium flex flex-row gap-4 justify-start content-center items-center text-sm underline">
     <slot></slot>
-    <span>{{ content }}</span>
+    <span>/{{ content }}</span>
   </button>
 </template>
 

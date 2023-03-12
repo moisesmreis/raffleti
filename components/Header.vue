@@ -6,24 +6,21 @@
             </NuxtLink>
         </div>
         <div class="flex flex-row justify-end items-center content-center py-6 gap-6">
-            <MainButton class="hidden md:flex text-white bg-purple-700 hover:bg-purple-800 active:bg-purple-900 border-purple-400" content="Voltar">
-                <ArrowLeftIcon class="w-4 h-4 text-white" />
+            <MainButton class="hidden md:flex" content="Voltar">
+                <ArrowLeftIcon class="w-4 h-4 text-[#333333] group-hover:text-white" />
             </MainButton>
-            <MainIcon class="flex md:hidden bg-purple-700 hover:bg-purple-800 active:bg-purple-900">
+            <MainIcon class="flex md:hidden">
                 <ArrowLeftIcon class="w-5 h-5 text-white" />
             </MainIcon>
             <MainButton class="hidden md:flex" content="Docs">
-                <ArrowUpRightIcon class="w-4 h-4 text-black" />
+                <ArrowUpRightIcon class="w-4 h-4 text-[#333333] group-hover:text-white" />
             </MainButton>
             <MainButton class="hidden md:flex" content="Portfolio">
-                <ArrowUpRightIcon class="w-4 h-4 text-black" />
+                <ArrowUpRightIcon class="w-4 h-4 text-[#333333] group-hover:text-white" />
             </MainButton>
             <MainButton class="hidden md:flex" content="Contato">
-                <ArrowUpRightIcon class="w-4 h-4 text-black" />
+                <ArrowUpRightIcon class="w-4 h-4 text-[#333333] group-hover:text-white" />
             </MainButton>
-            <MainIcon>
-                <SunIcon class="w-5 h-5 text-black" />
-            </MainIcon>
         </div>
     </header>
 </template>

@@ -1,6 +1,6 @@
 <template>
     <span
-        class="z-0 text-6xl text-[#6E57B2] blur-xl font-black font-head opacity-100 absolute">{{ symbol }}</span>
+        class="z-0 text-6xl text-[#ff0000] blur-lg font-black font-head opacity-100 absolute">{{ symbol }}</span>
 </template>
 
 <script lang="ts">
